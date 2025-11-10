@@ -1,6 +1,11 @@
 ul{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-evenly;
     
 }
 
+
+.chartBox{
+    width: 600px;
+}
