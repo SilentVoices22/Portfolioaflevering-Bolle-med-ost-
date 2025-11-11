@@ -13,15 +13,28 @@ function getCategoryAndColor(value) {
 
 // Your data
 const labels = [
-    'Cheddar', 'Comté', 'Danbo', 'Emmenthaler', 'Fyrtårnsost fra Thise',
-    'Gammel knas fra Arla Unika', 'Gouda', 'Gudenåenost', 'Havarti',
-    'Havgus fra Arla Unika', 'Høost fra Naturmælk', 'Klovborg', 'Koryfé',
-    'Midsommer fra Thise', 'Ravost fra Thise', 'Rød krystal fra Them',
-    'Smørost', 'Thise røget vesterhavsost',
-    'Vesterhavost', 'Vesterhavost fra Thise'
+    'Gammel knas fra Arla Unika',
+    'Vesterhavost fra Thise',
+    'Ravost fra Thise',
+    'Fyrtårnsost fra Thise',
+    'Gudenåenost',
+    'Havarti',
+    'Havgus fra Arla Unika',
+    'Høost fra Naturmælk',
+    'Rød krystal fra Them',
+    'Vesterhavost',
+    'Comté',
+    'Thise røget vesterhavsost',
+    'Emmenthaler',
+    'Danbo',
+    'Gouda',
+    'Smørost',
+    'Koryfé',
+    'Klovborg',
+    'Cheddar'
 ];
 const dataValues = [
-    1.5, 4.9, 2.7, 3, 5, 5.9, 2.5, 5, 5, 5, 5, 2, 2, 5, 5.5, 5, 5, 3, 5.5, 5
+    5.9, 5.5, 5.5, 5, 5, 5, 5, 5, 5, 5, 4.9, 3, 3, 2.7, 2.5, 2, 2, 2, 1.5
 ];
 
 // Generate background colors and categories
