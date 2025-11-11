@@ -29,7 +29,11 @@ footer {
 }
 
 .chartBox{
-    width: 600px;
+    width: 900px;
+}
+#pivottabel {
+    width: 650px;
+    height: 700px;
 }
 header {
     position: sticky;
@@ -46,7 +50,7 @@ main {
     gap: 15%;
 
     p {
-        width: 300px;
+        width: 500px;
         height: 500px;
     }
 }
