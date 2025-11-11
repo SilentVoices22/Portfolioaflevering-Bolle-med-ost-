@@ -7,6 +7,9 @@
     <title>Bolle med ost</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Notch:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <header>
     <img src="BMO_billede.png" width="100" alt="BMO" id="billed">
@@ -15,8 +18,24 @@
     <h1> Bolle Med ost</h1>
 
     <main>
-        <div class="chartBox">
-            <canvas id="chart"></canvas>
+        <h2>Chart 1</h2>
+        <div class="chart-1-section">
+            <div class="chartBox">
+                <canvas id="chart"></canvas>
+            </div>
+            <div class="text-box">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam at autem consequuntur, culpa debitis dolores eligendi id itaque, necessitatibus nobis pariatur perspiciatis placeat ratione similique, sit temporibus vero? Asperiores, eius nam. Accusamus aperiam asperiores aspernatur assumenda debitis deserunt dolorum eaque eius error eveniet libero, nisi odit optio, perferendis provident quis quisquam saepe sed similique vel velit voluptas voluptate! A accusantium animi deserunt dolorem harum impedit magnam nisi officia, pariatur quibusdam quod repellat repellendus saepe.</p>
+            </div>
+        </div>
+
+        <h2>Chart 2</h2>
+        <div class="chart-2-section">
+            <div class="chartBox">
+                <canvas id="chart-2"></canvas>
+            </div>
+            <div class="text-box">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere fuga fugiat iusto laudantium, maiores quam quasi quia quo ullam veniam! Aspernatur corporis et illum in nostrum provident, reiciendis totam veritatis.</p>
+            </div>
         </div>
     </main>
 
@@ -24,26 +43,25 @@
 
     <footer>
         <p> Lavet af:</p>
-        <div>
-            <ul>
+            <ul class="footer-list">
                 <li>
-                    <p>Frederik Egede Johansen </p>
+                    Frederik Egede Johansen
                 </li>
                 <li>
-                    <p> Kai Thelonious Brooklyn Bomholtz </p>
+                    Kai Thelonious Brooklyn Bomholtz
                 </li>
                 <li>
-                    <p> NiKolaj Birkelund Rahe </p>
+                    Nikolaj Birkelund Rahe
                 </li>
                 <li>
-                    <p> Pin (Kevin) Yuan Lu </p>
+                    Pin "Kevin" Yuan Lu
                 </li>
                 <li>
-                    <p> Simon Bransholm </p>
+                    Simon Bransholm
                 </li>
             </ul>
-        </div>
     </footer>
+
 
     <script src="main.js"></script>
 </body>

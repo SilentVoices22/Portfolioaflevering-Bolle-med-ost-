@@ -1,11 +1,31 @@
-ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    
+html {
+    background-color: #F3E9D2;
 }
+
 footer {
-    margin-top: 500px;
+    margin-top: 50px;
+
+    p {
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.5rem;
+    }
+
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.9rem;
 }
 
 .chartBox{
@@ -14,11 +34,55 @@ footer {
 header {
     position: sticky;
     top: 10px;
-    left: 0;
+    left: 10px;
+}
+main {
+    margin-top: 100px;
+}
+
+.chart-1-section, .chart-2-section {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+
+    p {
+        width: 300px;
+        height: 500px;
+    }
 }
 
 
 #billed {
     filter: drop-shadow(5px 10px 8px rgba(0, 0, 0, 0.8));
     transition: transform 0.1s ease-out;
+    margin-left: 10px;
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.4rem;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    margin-top: 0;
+    font-family: "Stack Sans Notch", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 5rem;
+}
+
+.text-box p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
 }
