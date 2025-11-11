@@ -4,8 +4,21 @@ ul{
     justify-content: space-evenly;
     
 }
-
+footer {
+    margin-top: 500px;
+}
 
 .chartBox{
     width: 600px;
+}
+header {
+    position: sticky;
+    top: 10px;
+    left: 0;
+}
+
+
+#billed {
+    filter: drop-shadow(5px 10px 8px rgba(0, 0, 0, 0.8));
+    transition: transform 0.1s ease-out;
 }
