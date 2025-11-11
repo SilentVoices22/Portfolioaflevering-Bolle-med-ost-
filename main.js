@@ -76,6 +76,10 @@ const chart = new Chart(ctx, {
         }]
     },
     options: {
+        title:{
+            display: true,
+            text: 'Gennemsnit af anmeldelser'
+        },
         scales: {
             x: {
                 ticks: {
