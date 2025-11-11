@@ -92,7 +92,7 @@ const chart = new Chart(ctx, {
 const BMO = document.querySelector('#billed')
 window.addEventListener("scroll", () => {
     const scrollY = window.scrollY
-    const rotation = (scrollY % 360) * 0.5 //Keep rotation between 0-360
+    const rotation = scrollY * 0.5 //Keep rotation between 0-360
     BMO.style.transform = `rotate(${rotation}deg)`
 })
 
