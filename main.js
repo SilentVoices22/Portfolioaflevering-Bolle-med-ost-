@@ -1,3 +1,13 @@
+// BMO script
+const BMO = document.querySelector('#billed')
+window.addEventListener("scroll", () => {
+    const scrollY = window.scrollY
+    const rotation = scrollY * 0.5
+    BMO.style.transform = `rotate(${rotation}deg)`
+})
+
+
+
 const ctx = document.querySelector('#chart').getContext('2d');
 
 // Function to assign a category and color based on the value
@@ -100,12 +110,5 @@ const chart2 = new Chart(ctx2, {
     }
 });
 
-// BMO script
-const BMO = document.querySelector('#billed')
-window.addEventListener("scroll", () => {
-    const scrollY = window.scrollY
-    const rotation = scrollY * 0.5 //Keep rotation between 0-360
-    BMO.style.transform = `rotate(${rotation}deg)`
-})
 
 
