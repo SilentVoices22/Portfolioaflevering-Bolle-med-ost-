@@ -34,6 +34,25 @@ footer {
 .chartBox-2 {
     width: 700px;
 }
+
+/* Headline divider (moved from inline HTML into CSS) */
+.headline-divider {
+    display: block;
+    width: 60%;            /* matches headline width visually on most screens */
+    max-width: 1000px;    /* cap to keep it from becoming too wide on large screens */
+    height: 2px;
+    margin: 4px auto 20px; /* tightened gap above to sit closer to H1 */
+    background-color: #222; /* dark line to match headline color */
+    border: none;
+    opacity: 0.95;
+}
+
+@media (max-width: 700px) {
+    .headline-divider {
+        width: 85%; /* increase relative width on small screens to feel balanced */
+        margin-bottom: 20px;
+    }
+}
 #pivottabel {
     width: 650px;
     height: 700px;
@@ -77,7 +96,7 @@ h2 {
 h1 {
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 100px;
+    margin-bottom: 6px; /* reduced so divider sits directly under the headline */
     margin-top: 0;
     font-family: "Stack Sans Notch", sans-serif;
     font-optical-sizing: auto;
@@ -93,4 +112,62 @@ h1 {
     font-style: normal;
     font-size: 1rem;
     margin-top: 50px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 40px 20px;
+    margin-top: 100px;
+    border-top: 3px solid #34495e;
+}
+
+footer p {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+footer h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #3498db;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-section a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: #3498db;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #34495e;
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: #95a5a6;
 }
